@@ -1,0 +1,9 @@
+/* Rolagem suave para navegação pelas seções */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Garante que o scroll considere a barra de navegação fixa */
+section, header {
+    scroll-margin-top: 5rem;
+}

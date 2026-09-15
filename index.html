@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio Web — Seleção de Versão | UFLA</title>
+
+    <!-- Tailwind CSS (Play CDN) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        bootstrap: '#7952b3',
+                        tailwind: '#06b6d4',
+                    }
+                }
+            }
+        }
+    </script>
+
+    <!-- Font Awesome (ícones) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body class="bg-slate-900 text-slate-100 min-h-screen flex flex-col justify-between antialiased selection:bg-blue-500 selection:text-white">
+
+    <!-- Cabeçalho -->
+    <header class="py-12 px-4 sm:px-6 text-center border-b border-slate-800 bg-slate-950/40">
+        <div class="max-w-3xl mx-auto space-y-3">
+            <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-semibold bg-blue-900/60 text-blue-300 border border-blue-700/50">
+                <i class="fa-solid fa-graduation-cap"></i>
+                <span>GAC116 — Programação Web • UFLA</span>
+            </div>
+            <h1 class="text-3xl sm:text-4xl font-extrabold tracking-tight text-white">
+                Portfólio Pessoal
+            </h1>
+            <p class="text-base sm:text-lg text-slate-400">
+                Diovani da Cruz Mangia Maciel Junior
+            </p>
+            <p class="text-xs sm:text-sm text-slate-500 max-w-xl mx-auto leading-relaxed">
+                Atividade Prática 2: implementação comparativa de uma mesma página pessoal utilizando dois frameworks CSS distintos com paridade de conteúdo.
+            </p>
+        </div>
+    </header>
+
+    <!-- Seletor de Versões -->
+    <main class="max-w-5xl mx-auto px-4 sm:px-6 py-12 w-full">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            
+            <!-- Card 1: Versão Bootstrap -->
+            <div class="bg-slate-800/60 border border-slate-700/70 hover:border-purple-500/60 rounded-2xl p-7 flex flex-col justify-between shadow-lg transition-all duration-200 hover:-translate-y-1">
+                <div>
+                    <div class="w-12 h-12 rounded-xl bg-purple-950/80 border border-purple-700/50 text-purple-400 flex items-center justify-center text-2xl mb-5">
+                        <i class="fa-brands fa-bootstrap"></i>
+                    </div>
+                    <span class="text-xs font-semibold uppercase tracking-wider text-purple-400">Versão 1</span>
+                    <h2 class="text-2xl font-bold text-white mt-1 mb-3">Bootstrap 5</h2>
+                    <p class="text-sm text-slate-400 leading-relaxed mb-6">
+                        Construído com a abordagem clássica orientada a componentes, sistema de grid de 12 colunas, tema claro/escuro via variáveis nativas e scripts bundled.
+                    </p>
+
+                    <div class="flex flex-wrap gap-2 mb-6 text-xs">
+                        <span class="px-2.5 py-1 rounded-md bg-slate-900 text-slate-300 border border-slate-700">Bootstrap 5.3</span>
+                        <span class="px-2.5 py-1 rounded-md bg-slate-900 text-slate-300 border border-slate-700">Grid 12 cols</span>
+                        <span class="px-2.5 py-1 rounded-md bg-slate-900 text-slate-300 border border-slate-700">data-bs-theme</span>
+                    </div>
+                </div>
+
+                <a href="./bootstrap/index.html" class="w-full inline-flex items-center justify-center gap-2 px-5 py-3 rounded-xl text-sm font-semibold text-white bg-purple-600 hover:bg-purple-500 transition-colors shadow-sm">
+                    <span>Acessar Versão Bootstrap</span>
+                    <i class="fa-solid fa-arrow-right text-xs"></i>
+                </a>
+            </div>
+
+            <!-- Card 2: Versão Tailwind CSS -->
+            <div class="bg-slate-800/60 border border-slate-700/70 hover:border-cyan-500/60 rounded-2xl p-7 flex flex-col justify-between shadow-lg transition-all duration-200 hover:-translate-y-1">
+                <div>
+                    <div class="w-12 h-12 rounded-xl bg-cyan-950/80 border border-cyan-700/50 text-cyan-400 flex items-center justify-center text-2xl mb-5">
+                        <i class="fa-solid fa-wind"></i>
+                    </div>
+                    <span class="text-xs font-semibold uppercase tracking-wider text-cyan-400">Versão 2</span>
+                    <h2 class="text-2xl font-bold text-white mt-1 mb-3">Tailwind CSS</h2>
+                    <p class="text-sm text-slate-400 leading-relaxed mb-6">
+                        Construído com abordagem utility-first, layout responsivo mobile-first via Flexbox/CSS Grid, alternador de tema com estratégia de classe e sem dependência de JavaScript pesado.
+                    </p>
+
+                    <div class="flex flex-wrap gap-2 mb-6 text-xs">
+                        <span class="px-2.5 py-1 rounded-md bg-slate-900 text-slate-300 border border-slate-700">Tailwind CSS</span>
+                        <span class="px-2.5 py-1 rounded-md bg-slate-900 text-slate-300 border border-slate-700">Utility-First</span>
+                        <span class="px-2.5 py-1 rounded-md bg-slate-900 text-slate-300 border border-slate-700">darkMode: 'class'</span>
+                    </div>
+                </div>
+
+                <a href="./tailwind/index.html" class="w-full inline-flex items-center justify-center gap-2 px-5 py-3 rounded-xl text-sm font-semibold text-slate-950 bg-cyan-400 hover:bg-cyan-300 transition-colors shadow-sm">
+                    <span>Acessar Versão Tailwind</span>
+                    <i class="fa-solid fa-arrow-right text-xs"></i>
+                </a>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- Rodapé -->
+    <footer class="py-6 border-t border-slate-800 text-center text-xs text-slate-500">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 flex flex-col sm:flex-row items-center justify-between gap-3">
+            <p>© 2026 — Universidade Federal de Lavras (UFLA)</p>
+            <div class="flex items-center gap-4">
+                <a href="https://github.com/diovaniMangiajr" target="_blank" rel="noreferrer" class="hover:text-slate-300 transition-colors inline-flex items-center gap-1.5">
+                    <i class="fa-brands fa-github"></i>
+                    <span>Repositório GitHub</span>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

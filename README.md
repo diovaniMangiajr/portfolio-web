@@ -10,9 +10,7 @@ O objetivo do projeto é construir uma página pessoal (portfólio) mantendo con
 
 O projeto está publicado e funcional via **GitHub Pages**:
 
-* **Portal de Entrada (Raiz):** [https://diovanimangiajr.github.io/pagina-pessoal/](https://diovanimangiajr.github.io/pagina-pessoal/)  
-* **Versão Bootstrap 5:** [https://diovanimangiajr.github.io/pagina-pessoal/bootstrap/](https://diovanimangiajr.github.io/pagina-pessoal/bootstrap/)  
-* **Versão Tailwind CSS:** [https://diovanimangiajr.github.io/pagina-pessoal/tailwind/](https://diovanimangiajr.github.io/pagina-pessoal/tailwind/)
+* **Portal de Entrada:** [[https://diovanimangiajr.github.io/pagina-pessoal/](https://diovanimangiajr.github.io/pagina-pessoal/](https://diovanimangiajr.github.io/portfolio-web/))  
 
 ---
 

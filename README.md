@@ -10,7 +10,7 @@ O objetivo do projeto é construir uma página pessoal (portfólio) mantendo con
 
 O projeto está publicado e funcional via **GitHub Pages**:
 
-* **Portal de Entrada:** [[https://diovanimangiajr.github.io/pagina-pessoal/](https://diovanimangiajr.github.io/pagina-pessoal/](https://diovanimangiajr.github.io/portfolio-web/))  
+* **Portal de Entrada:** [https://diovanimangiajr.github.io/portfolio-web/](https://diovanimangiajr.github.io/portfolio-web/)  
 
 ---
 
